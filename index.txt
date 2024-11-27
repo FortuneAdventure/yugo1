@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechQuest - Ignite Your Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        section {
+            padding: 2rem;
+        }
+        .hero {
+            background: #f4f4f4;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .content div {
+            flex: 1;
+            padding: 1rem;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+        .content div h3 {
+            margin-top: 0;
+        }
+        .register {
+            background: #4CAF50;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .register a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="images/yugo_logo.webp" alt="Yugo Logo" style="max-width: 150px;">
+    <h1>Welcome to TechQuest</h1>
+    <p>Your Gateway to Success: Enhance Skills, Win Scholarships, and Build Your Future</p>
+</header>
+>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#prizes">Prizes</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="hero">
+        <h1>About TechQuest</h1>
+        <p>TechQuest is a skill-development quiz competition designed exclusively for BTech students. Participate to challenge your aptitude, test your knowledge, and win amazing scholarships!</p>
+    </section>
+
+    <section id="prizes">
+        <h2>Scholarships and Rewards</h2>
+        <div class="content">
+            <div>
+                <h3>1st Place</h3>
+                <p>1 Winner: ₹1 Million Scholarship</p>
+            </div>
+            <div>
+                <h3>2nd Place</h3>
+                <p>2 Winners: ₹2 Lakh Scholarships Each</p>
+            </div>
+            <div>
+                <h3>3rd Place</h3>
+                <p>3 Winners: ₹1 Lakh Scholarships Each</p>
+            </div>
+            <div>
+                <h3>4th Place</h3>
+                <p>4 Winners: ₹50,000 Scholarships Each</p>
+            </div>
+            <div>
+                <h3>5th Place</h3>
+                <p>5 Winners: ₹25,000 Scholarships Each</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="register">
+        <h2>Register Now</h2>
+        <p>Sign up today to participate in TechQuest and take the first step toward winning amazing scholarships and improving your skills.</p>
+        <div class="register">
+            <a href="#">Click Here to Register</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:contact@fortunetech.com">contact@fortunetech.com</a></p>
+        <p>Phone: +91-7386604979</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fortune Technologies Pvt. Ltd. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
